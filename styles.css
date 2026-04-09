@@ -7,7 +7,6 @@ body {
   padding-top: 20px;
   display: flex;
   justify-content: center;
-  background-color: #fffafb;
   color: #070001;
 }
 
@@ -71,6 +70,9 @@ h2 {
 }
 
 #algn-fix {
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin-right: 120px;
   text-align: left;
   padding: 0;
@@ -167,7 +169,19 @@ header a:hover {
 
 /* for div area with page title */
 .page-title {
+  padding: 0;
   margin-top: 280px; 
+  margin-bottom: -130px;;
+}
+
+.MAG-page-title {
+  padding: 0;
+  margin-top: 280px; 
+  margin-bottom: -130px;
+}
+
+.PR-page-title {
+  margin-top: 0px;
 }
 
 .typography-title {
@@ -196,9 +210,9 @@ header a:hover {
   font-size: 200px; 
   text-align: center;
   padding: 0;
-  padding-bottom: 0px;
+  padding-bottom: 140px;
   margin-bottom: 205px;
-  margin-top: 0;
+  margin-top: 250px;
 }
 
 /* Main Page: "Beginner Graphic Designer */
@@ -208,9 +222,9 @@ header a:hover {
   font-style: normal;
   font-size: 50px; 
   text-align: center; 
-  margin-top: -235px;
-  margin-bottom: 220px;
-  
+  margin-top: -340px;
+  margin-bottom: 320px;
+  padding-bottom: 140px;
 }
 
 /* div section for quote or blurb*/
@@ -222,7 +236,7 @@ header a:hover {
 
 
 .quote {
-  font-family: "articulat-cf", Arial, sans-serif;
+  font-family: clother, Georgia, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 80px; 
@@ -231,8 +245,8 @@ header a:hover {
 }
 
 .quote-2 {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 400;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 40px; 
   text-align: center; 
@@ -253,7 +267,6 @@ header a:hover {
 
 
 .container {
-  /*background-color: red;*/
   display: grid;
   grid-template-columns: auto auto; 
   margin-top: 80px;
@@ -262,7 +275,6 @@ header a:hover {
 
 .grid-item {
   text-align: center;  
-  /* background-color: lightgrey; */
 }
 
 .grid-item-2 {
@@ -285,8 +297,10 @@ header a:hover {
 }
 
 .ts-list {
-  text-align: left;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 400;
   font-style: normal;
+  text-align: left;
   font-size: 36px;  
   margin-left: 4px; 
 }
@@ -345,8 +359,43 @@ img {
   text-align: left;
 }
 
+#PR-project-description {
+  font-family: clother, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 40px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+#PR-project-description-sub {
+  font-family: clother, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 40px;
+  text-align: center;
+  color: #1c1c1c;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#bg-PR a:link {
+  color: #528524;
+}
+
+#bg-PR a:hover {
+  color: #DD7047;
+}
+
+
+
 .project-description-1 {
   text-align: left;
+}
+
+.ABTME-project-description-1 {
+  text-align: left;
+  margin-top: 35px;
 }
 
 .project-description-2 {
@@ -356,6 +405,24 @@ img {
 }
 
 .project-hyperlink {
+  text-align: left;
+  font-style: normal;
+  font-size: 24px; 
+}
+
+#MAG-project-hyperlink {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-style: normal;
+  font-size: 24px; 
+}
+
+#PR-project-hyperlink {
+  font-family: clother, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-align: left;
   font-style: normal;
   font-size: 24px; 
@@ -389,27 +456,24 @@ img {
   height: auto;
 }
 
-.mag-description {
+.MAG-description {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: left;
   padding: 0;
   margin: 0;
+  color: #1c1c1c;
 }
 
 /* project-rebrand.html */
 
 .body-text {
   text-align: left; 
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 32px;
   margin-top: 35px;
-  margin-right: 120px;
-}
-
-.project-rebrand-page {
-/* background-color: #FFFCF6; /* Cream/off-white */
-background-color: white;
+  margin-right: 90px;
+  margin-bottom: 0;
 }
 
 /* div section */
@@ -478,6 +542,7 @@ background-color: white;
   font-style: normal;
   font-size: 64px;
   margin-top: 0;  
+  color: #528540;
 }
 
 #poster1 {
@@ -498,9 +563,20 @@ background-color: white;
   margin-top: 20px;
 }
 
-.reframe-quotes-l {
-  font-family: "articulat-cf", Arial, sans-serif;
+.PR-target-market {
+  font-family: clother, Georgia, sans-serif;
   font-weight: 400;
+  font-style: normal;
+  font-size: 48px; 
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.reframe-quotes-l {
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 32px; 
   padding: 0;
@@ -512,8 +588,8 @@ background-color: white;
 }
 
 .reframe-quotes-r {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 400;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 32px; 
   margin: 0;
@@ -608,61 +684,60 @@ background-color: white;
 } 
 
 #the {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 50px;
-  text-align: left; 
-  margin: 0;
-  margin-left: 83px;
+font-family: clother, Georgia, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+text-align: left; 
+margin: 0;
+margin-left: 146px;
 }
 
 /* Main Page: "Jasmine Yip" */ 
 #big {
-  display: flex;
-  float: left; 
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 500px; 
-  text-align: left;
-  padding: 0;
-  margin-left: 70px;
-  margin-top: -160px;
-  margin-right: 0;
+font-family: clother, Georgia, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 450px; 
+text-align: left;
+padding: 0;
+margin-top: -200px;
+margin-right: 0;
+margin-bottom: 20px;
 }
 
 /* Main Page: "Beginner Graphic Designer */
 #idea {
-  display: inline-block;
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 200px; 
-  text-align: right; 
-  padding-left: 0;
-  margin-left: -50px;
-  margin-top: 120px;
-  padding-bottom: 0;
-  margin-bottom: 50;
+font-family: clother, Georgia, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 200px; 
+text-align: right; 
+padding-left: 0;
+margin-left: 60px;
+margin-top: 30px;
+padding-bottom: 0;
+margin-bottom: 50px;
 }
 
+
+
 #why {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 600;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 100px;
   text-align: left; 
   margin: 0;
   margin-left: 105px;
   padding-bottom: 50px;
+  padding-top: 100px;
+  margin-top: 70px;
 }
 
 #rebrand {
-  display: flex;
-  float: left; 
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 270px; 
   text-align: left;
@@ -670,12 +745,45 @@ background-color: white;
   margin-left: 110px;
   margin-top: -130px;
   margin-right: 100px; 
-  margin-bottom: 250px; 
+  padding-bottom: 100px;
+  margin-bottom: 70px; 
 }
 
+#PR-project {
+  font-family: clother, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: left; 
+  margin: 0;
+  margin-left: 130px;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  color: #1c1c1c;
+  color: transparent; 
+  -webkit-text-stroke: 2px #1c1c1c; 
+  font-size: 50px;
+}
+
+#PR-rebrand {
+  font-family: clother, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 270px; 
+  text-align: center;
+  padding: 0;
+  margin-left: 110px;
+  margin-top: -130px;
+  margin-right: 100px; 
+  margin-bottom: 100px; 
+  color: #DD7047;
+}
+
+
+
 #new { 
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 470px; 
   text-align: center;
@@ -685,21 +793,25 @@ background-color: white;
   margin-right: 0;
 }
 
+
+
 #taglines {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 110px; 
   text-align: left;
   padding: 0;
+  padding-top: 140px;
   margin-left: 120px;
   margin-top: -130px;
   margin-right: 0;
 }
 
 #and {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 200;
+  color: #FFFCF6;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 110px; 
   text-align: center;
@@ -710,8 +822,8 @@ background-color: white;
 }
 
 #slogans {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 210px; 
   text-align: right;
@@ -720,11 +832,12 @@ background-color: white;
   margin-top: -170px;
   margin-right: 100px;
   margin-bottom: 250px;
+  padding-bottom: 100px;
 }
 
 #promotion {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 200px; 
   text-align: center;
@@ -735,42 +848,42 @@ background-color: white;
 }
 
 #v {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 150px; 
   text-align: right;
   padding: 0;
   margin-left: 120px;
   margin-top: -130px;
-  margin-right: 296px;
+  margin-right: 277px;
 }
 #i{
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 150px; 
   text-align: right;
   padding: 0;
   margin-left: 120px;
   margin-top: -200px;
-  margin-right: 331px;
+  margin-right: 303px;
 }
 
 #s {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 150px; 
   text-align: right;
   padding: 0;
   margin-left: 120px;
   margin-top: -200px;
-  margin-right: 302px;
+  margin-right: 284px;
 }
 
 #the-2 {
-  font-family: "articulat-cf", Arial, sans-serif;
+  font-family: clother, Georgia, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 150px; 
@@ -778,24 +891,24 @@ background-color: white;
   padding: 0;
   margin-left: 120px;
   margin-top: -200px;
-  margin-right: 105px;
+  margin-right: 115px;
 }
 
 #n {
-  font-family: "articulat-cf", Arial, sans-serif;
-  font-weight: 800;
+  font-family: clother, Georgia, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 150px; 
   text-align: right;
   padding: 0;
   margin-left: 120px;
   margin-top: -250px;
-  margin-right: 292px;
+  margin-right: 268px;
   margin-bottom: 250px;
 }
 
 #tgt-market {
-  font-family: "articulat-cf", Arial, sans-serif;
+  font-family: clother, Georgia, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 110px; 
@@ -813,8 +926,9 @@ background-color: white;
   font-size: 175px; 
   text-align: center;
   padding: 0;
+  margin-left: -55px;
   padding-bottom: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 140px;
   margin-top: 0;
 }
 
@@ -938,31 +1052,36 @@ background-color: white;
 .swatch-1 {
     background-color: #FFFCF6;
     width: 170px;
+    border: 0.25px solid #1c1c1c;
 }
 
 .swatch-2 {
     background-color: #DD7047;
     width: 170px;
+    border: 0.25px solid #1c1c1c;
 }
 
 .swatch-3 {
     background-color: #CEDE47;
     width: 170px;
+    border: 0.25px solid #1c1c1c;
 }
 
 .swatch-4 {
-    background-color: #FFFFFF;
+    background-color: #FFFCF6;
     width: 170px;
 }
 
 .swatch-5 {
     background-color: #528540;
     width: 170px;
+    border: 0.25px solid #1c1c1c;
 }
 
 .swatch-6 {
     background-color: #FFDE8D;
     width: 170px;
+    border: 0.25px solid #1c1c1c;
 }
 
 .hex-code {
@@ -983,6 +1102,15 @@ background-color: white;
   margin-left: 120px;
   margin-right: 120px;
   padding: 0;
+}
+
+#PR-poster{
+  width: 750px;
+  height: auto;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 0;
+  justify-content: center;
 }
 
 .logo-var{
@@ -1014,7 +1142,7 @@ background-color: white;
 }
 
 .yt {
-  color: #0000FF;
+  color: #528524;
 }
 
 #prj-oishii-yasai {
@@ -1091,6 +1219,13 @@ body a:hover {
   text-align: left;
 } 
 
+.long-para-1 {
+  font-size: 24px;
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 7px;
+} 
+
 .long-para-2 {
   font-size: 24px;
   text-align: left;
@@ -1098,6 +1233,79 @@ body a:hover {
   margin-right: 35px;
   margin-top: -20px;
 } 
+
+
+#bg-PR {
+  background-color: #FFFCF6;
+  color: #528524;
+  padding-bottom: 70px;
+}
+
+.bg-PR-1 {
+  background-color: #528540;
+  color: #CEDE47;
+  padding-bottom: 70px;
+  margin-bottom:0;
+}
+
+.bg-PR-2 {
+  background-color: #DD7047;
+  color: #1c1c1c;
+  padding-bottom: 70px;
+  margin-top: 0;  
+}
+
+#bg-MAG {
+  background-color: #9098a2;
+  color: white;
+  padding-bottom: 70px;
+}
+
+#MAG-visionary { 
+  font-family: "castoro-titling", 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250px; 
+  padding: 0;
+  margin-left: 120;
+  margin-right: 120;
+  text-align: center;
+  padding-top: 100px;
+  color: #18194c;
+  transform: scaleX(0.8);
+}
+
+#MAG-magazine {
+  font-family: "castoro-titling", 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px; 
+  text-align: center; 
+  padding-left: 0;
+  margin-top: -150px;
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-bottom: 250px;
+  color: white;
+}
+
+.divider {
+  background-color: white;
+  margin: 600px;
+}
+
+.big-idea-div {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    width: 1200px;
+    margin: 0 10px;
+    margin-left: 120px;
+}
+
+.big-idea-grid {
+    min-height: 200px;
+}
 
 /* FOOTER ----------------------------------------------------------------------------------- */
 footer {
