@@ -1209,11 +1209,6 @@ margin-bottom: 50px;
     padding: 0; 
 }
 
-body a:hover {
-  color: #cc2848;
-  text-decoration: none;
-}
-
 .long-para {
   font-size: 24px;
   text-align: left;
@@ -1352,6 +1347,10 @@ footer li {
   text-align: left;
   font-style: bold;
   font-size: 80px; 
+}
+
+.footer-nav-items-first {
+  padding-top: 65px;
 }
 
 .footer-list {
