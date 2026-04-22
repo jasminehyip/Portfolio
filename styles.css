@@ -1302,6 +1302,11 @@ margin-bottom: 50px;
     min-height: 200px;
 }
 
+#fullbody {
+  width: 588px;
+  height: auto;
+}
+
 /* FOOTER ----------------------------------------------------------------------------------- */
 footer {
   background-color: #070001;
